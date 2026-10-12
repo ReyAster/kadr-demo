@@ -54,29 +54,29 @@
         <div class="fan-stage">
           <div class="fan" role="list" aria-label="Ролики выпускников">
             <article class="reel front r1" role="listitem" style="--c:#1F1A1B">
-              <div class="who"><span>@mark.severin</span><span class="play-sm" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="#FFFFFF"/></svg></span></div>
+              <div class="who"><span>@irina.nutri</span><span class="play-sm" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="#FFFFFF"/></svg></span></div>
               <div class="title">Почему вас <span class="accent">не&nbsp;смотрят</span> дальше 3&nbsp;секунд</div>
               <div class="stats"><span>▶ 1,4 млн</span><span>♥ 96 тыс</span></div>
             </article>
             <article class="reel r2" role="listitem" style="--c:#241517">
               <img src="img/camera.jpg" alt="" loading="lazy" width="420" height="748">
-              <div class="who"><span>@mark.severin</span></div>
+              <div class="who"><span>@anton.law</span></div>
               <div class="title">Свет за&nbsp;0&nbsp;₽: <span class="accent">окно</span> и&nbsp;телефон</div>
               <div class="stats"><span>▶ 870 тыс</span><span>♥ 54 тыс</span></div>
             </article>
             <article class="reel r3" role="listitem" style="--c:#1A1A1F">
               <img src="img/mic.jpg" alt="" loading="lazy" width="420" height="748">
-              <div class="who"><span>@mark.severin</span></div>
+              <div class="who"><span>@ksenia.interiors</span></div>
               <div class="title">Говорить в камеру <span class="accent">без&nbsp;зажима</span></div>
               <div class="stats"><span>▶ 2,1 млн</span><span>♥ 130 тыс</span></div>
             </article>
             <article class="reel r4" role="listitem" style="--c:#2A1619">
-              <div class="who"><span>@mark.severin</span></div>
+              <div class="who"><span>@olga.coach</span></div>
               <div class="title">Сценарий ролика <span class="accent">за&nbsp;10 минут</span></div>
               <div class="stats"><span>▶ 640 тыс</span><span>♥ 41 тыс</span></div>
             </article>
             <article class="reel r5" role="listitem" style="--c:#19191C">
-              <div class="who"><span>@mark.severin</span></div>
+              <div class="who"><span>@dmitry.fit</span></div>
               <div class="title">Ошибка, из&#8209;за которой <span class="accent">не&nbsp;пишут</span></div>
               <div class="stats"><span>▶ 1,1 млн</span><span>♥ 77 тыс</span></div>
             </article>
@@ -91,7 +91,7 @@
   <section class="stats" aria-label="Курс в цифрах">
     <div class="wrap stats-grid">
       <div class="stat reveal"><b>8</b><span>недель работы с наставником</span></div>
-      <div class="stat reveal" style="--d:.06s"><b>16</b><span>личных разборов ваших роликов</span></div>
+      <div class="stat reveal" style="--d:.06s"><b><small>до</small> 16</b><span>личных разборов ваших роликов</span></div>
       <div class="stat is-red reveal" style="--d:.12s"><b>12</b><span>мест в потоке, не больше</span></div>
       <div class="stat reveal" style="--d:.18s"><b>∞</b><span>доступ к записям после курса</span></div>
     </div>
@@ -229,16 +229,16 @@
   <section class="section" id="apply">
     <div class="wrap">
       <div class="apply-card reveal" id="card">
-        <h2 class="h2">Оставьте заявку: Марк лично ответит в течение дня</h2>
+        <h2 class="h2">Оставьте заявку: Марк лично ответит в течение 24 часов</h2>
         <form class="form" id="form" novalidate>
           <div class="field">
-            <label for="name">Имя</label>
-            <input class="input" id="name" name="name" type="text" autocomplete="given-name" aria-describedby="name-err">
+            <label for="name">Имя <span class="req" aria-hidden="true">*</span></label>
+            <input class="input" id="name" name="name" type="text" autocomplete="given-name" required aria-required="true" aria-describedby="name-err">
             <p class="err" id="name-err" role="alert"></p>
           </div>
           <div class="field">
-            <label for="contact">Telegram или телефон</label>
-            <input class="input" id="contact" name="contact" type="text" autocomplete="off" placeholder="@ник или +7 900 000-00-00" aria-describedby="contact-err">
+            <label for="contact">Telegram или телефон <span class="req" aria-hidden="true">*</span></label>
+            <input class="input" id="contact" name="contact" type="text" autocomplete="off" required aria-required="true" placeholder="@ник или +7 900 000-00-00" aria-describedby="contact-err">
             <p class="err" id="contact-err" role="alert"></p>
           </div>
           <div class="field">
@@ -258,11 +258,12 @@
             </div>
           </fieldset>
           <button class="btn btn-primary" type="submit">Отправить заявку</button>
+          <p class="demo-note">* обязательные поля. Это демо-форма, данные никуда не отправляются.</p>
           <p class="consent">Отправляя заявку, вы соглашаетесь с <a href="privacy.html">политикой обработки персональных данных</a></p>
         </form>
         <div class="done" id="done" tabindex="-1" role="status">
           <h3 class="h3">Спасибо!</h3>
-          <p>Марк напишет вам в течение дня.</p>
+          <p>Марк напишет вам в течение 24 часов.</p>
           <small>Это демо-форма, данные никуда не отправляются.</small>
         </div>
       </div>
